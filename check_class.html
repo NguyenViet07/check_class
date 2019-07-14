@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <script>
+        function checkClass(str) {
+            var regepx = /^[ACP][0-9]{4}[GHIKLM]$/;
+            if (regepx.test(str)){
+                return true;
+            } return false;
+        }
+        console.log(checkClass("C0318G"));
+        console.log(checkClass("C031855G"))
+    </script>
+
+</body>
+</html>
